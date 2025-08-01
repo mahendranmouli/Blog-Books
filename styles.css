@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ecd760;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+.container{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+
+}
+.book {
+  background-color: #e04d21;
+  padding: 30px;
+  margin: 20px ;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 600px;
+  flex: 1;
+}
+.book:hover{
+  background-color: #ebc29c;
+  box-shadow: 1px 1px 20px rgb(199, 92, 20);
+  
+
+}
+
+.description {
+  margin-top: 10px;
+  color: #444;
+}
+
+a {
+  margin-top: 10px;
+  background-color: #e2a521;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color:#e04d21;
+}
